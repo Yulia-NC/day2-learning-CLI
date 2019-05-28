@@ -1,0 +1,116 @@
+  201  host facefook.com
+  202  host msil.ru
+  203  history
+  204  history -d
+  205  pds
+  206  pwd
+  207  whoami
+  208  echo "Good vibes"
+  209  date
+  210  cal
+  211  man cal
+  212  cal -y 1989
+  213  man echo
+  214  cd /
+  215  cd ..
+  216  ls -a
+  217  ls /var
+  218  cd ./lib
+  219  ls
+  220  cd /
+  221  cd
+  222  pwd
+  223  cat
+  224  history
+  225  cat .
+  226  mkdir box
+  227  mkdir ~/pets
+  228  touch /tmp/ll
+  229  cd box
+  230  touch ney hey yay lalo
+  231  touch ~/pets cat.txt dog.txt cheba.txt
+  232  cd ~
+  233  tree
+  234  mv ./box/cat.txt ./pets/cat.txt
+  235  ls
+  236  cat .
+  237  cat -r .
+  238  cd pets
+  239  cat
+  240  cd pets
+  241  cat .
+  242  ls
+  243  mv ~/box/dog.txt ./dog.txt
+  244  ls
+  245  touch ~box/ls.txt
+  246  date dog.txt
+  247  man date
+  248  bc
+  249  cd ~/pets
+  250  ls -l
+  251  ls *d
+  252  ls
+  253  ls d*
+  254  cd ~/box
+  255  ls
+  256  ls *y
+  257  ls [ha]*
+  258  ld h* a*
+  259  ls h* a*
+  260  cp /ect/passwd ~/
+  261  cp etc/ passwd ~/
+  262  cp ./lalo ~/
+  263  cd
+  264  ls
+  265  cat
+  266  cat lalo
+  267  cat /etc/issue
+  268  ls
+  269  cd box
+  270  ls
+  271  cd ..
+  272  cd pets
+  273  ls
+  274  mv ~/lalo ./dogs.txt
+  275  ls
+  276  mv dogs.txt dog.txt
+  277  ls
+  278  man wc
+  279  wc -w /etc/issue
+  280  cd
+  281  ln -s /etc/issue issue_link
+  282  ln /bash_history history_hard
+  283  ln .bash_history history_hard 
+  284  ls -l ~/.bash_history
+  285  ls
+  286  ls ./box
+  287  rm ./box/hey
+  288  ls ./box
+  289  mkdir kk
+  290  rmdir kk
+  291  rmdir ./box
+  292  rmdir ./box -fr
+  293  rm -fr ./box
+  294  ls
+  295  cat /etc/issue /var/log/boot.log
+  296  ch /ect/issue ~
+  297  cp /ect/issue ~
+  298  cp /etc/issue ~
+  299  rm /etc/issue
+  300  man cut
+  301  curl wttr.in
+  302  grep aliases .bashrc
+  303  grep -C2 .bashrc
+  304  grep -C 2 aliases .bashrc
+  305  grep -R bashrc .
+  306  grep -Rn bashrc .
+  307  stat .bashrc
+  308  head -n 2 .bashrc
+  309  tail -n 2 .bashrc
+  310  grep alias .bashrc | grep color
+  311  cat .bashrc | grep aalias | grep color
+  312  cat .bashrc | grep alias |grep color
+  313  env
+  314  id
+  315  ls -la /home/ | grep yulia
+  316  history > day2-learning-CLI.txt
